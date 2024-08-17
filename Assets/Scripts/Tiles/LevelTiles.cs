@@ -16,11 +16,11 @@ public class LevelTiles : MonoBehaviour
         foreach (var position in tilemap.cellBounds.allPositionsWithin)
         {
             var tile = tilemap.GetTile(position);
-            var customTile = new CustomTile(TileColor.None, position, tile, this);
-            tilemap.SetTileFlags(position, TileFlags.None);
 
             if (tile != null)
             {
+                var customTile = new CustomTile(TileColor.None, position, tile, this);
+                tilemap.SetTileFlags(position, TileFlags.None);
                 tilesDict[position] = customTile;
             }
         }

@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: NewTile
+  m_Name: Tile-Right
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 21300000, guid: 99f7149d780d7e343bf92230e495e760, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 55c8051287ee6eb4d897cc50472f0a17, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1

@@ -1,4 +1,4 @@
 public enum TileColor
 {
-    None, Blue, Red, Green, Yellow
+    None, Blue, Red, Green, Yellow, White
 }

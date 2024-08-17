@@ -6,7 +6,7 @@ public class CustomTile
     public TileColor tileColor;
     public Vector3Int pos;
     public TileBase tileBase;
-    public int tileColorIndex = 0;
+    public int tileColorIndex = 1;
 
     private readonly LevelTiles levelTilesRef;
 
@@ -18,9 +18,9 @@ public class CustomTile
         levelTilesRef = levelTiles;
     }
 
-    public void UpdateTileColor(TileColor tileColor)
+    public void UpdateTileColor(Tile newTile)
     {
-        levelTilesRef.tilemap.SetColor(pos, ColorMapper.Map(tileColor));
+        levelTilesRef.tilemap.SetTile(pos, newTile);
         tileColorIndex++;
     }
 }
